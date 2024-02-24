@@ -191,3 +191,114 @@ form button {
   outline: none;
   cursor: pointer;
 }
+
+/* contact us */
+
+/* .contact-container form {
+  height: 50vh;
+} */
+
+.contact-container h2 {
+  margin-top: 2rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+
+  margin-bottom: 3rem;
+}
+
+.form-control {
+  /* border-bottom: 1px solid black; */
+  background: transparent !important;
+  border: 0;
+
+  /* width: 90%; */
+  /* height: 3rem; */
+  font-size: 1.8rem;
+  box-shadow: none;
+}
+
+/* .contact-container form input:focus {
+  outline: none imoprtant!;
+} */
+.no-border:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.border-form {
+  position: relative;
+}
+
+.border-form:after {
+  content: "";
+  width: 97%;
+  height: 0.2rem;
+  background-color: black;
+  left: 1rem;
+  bottom: 0;
+  position: absolute;
+}
+.btn-submit {
+  background-color: #0d5ea6;
+  color: aliceblue;
+  width: 8rem;
+  border-radius: 0;
+  font-family: "Quicksand";
+  font-size: 1.5rem;
+}
+.btn-submit:hover {
+  color: aliceblue;
+  background-color: #2b72af;
+}
+
+.bg-color {
+  background-color: #0d5ea6;
+  position: relative;
+}
+
+.bg-color:after {
+  content: "";
+  background-image: url(./images/transparent/1.png);
+  width: 100%;
+  height: 20rem;
+  left: 14rem;
+  bottom: 5rem;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20rem;
+}
+
+@media (max-width: 767px) {
+  .bg-color:after {
+    content: "";
+    background-image: url(./images/transparent/1.png);
+    width: 100%;
+    height: 15rem;
+    left: 10rem;
+    bottom: 5rem;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .bg-color:after {
+    content: "";
+    background-image: url(./images/transparent/1.png);
+    width: 100%;
+    height: 15rem;
+    left: 8rem;
+    bottom: 4rem;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 17rem;
+  }
+
+  .footer-container img {
+    height: 4rem;
+  }
+}
