@@ -302,3 +302,39 @@ form button {
     height: 4rem;
   }
 }
+
+.shadow-whatwedo {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  margin-right: 1rem;
+}
+
+/* featured destinations */
+
+.first-photo {
+  background-color: antiquewhite;
+  height: 50vh;
+}
+.second-photo {
+  background-color: rgb(131, 204, 204);
+  height: 50vh;
+}
+.third-photo {
+  background-color: rgb(155, 11, 73);
+  height: 100vh;
+}
+.forth-photo {
+  background-color: rgb(64, 190, 148);
+  height: 100rem;
+}
+
+/* .third-photo {
+  background-color: rgb(188, 114, 23);
+}
+.last-photo {
+  background-color: #2b72af;
+  height: 70vh;
+}
+
+.row-height {
+  height: 70vh;
+} */
