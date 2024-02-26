@@ -81,8 +81,8 @@ header {
 .whatwedo-container {
   /* background-color: antiquewhite; */
   /* height: 40vh; */
-  border-top: 0.2rem solid #0d5ea6;
-  margin-top: 3rem;
+  /* border-top: 0.2rem solid #0d5ea6; */
+  /* margin-top: 3rem; */
   padding: 2rem;
 }
 
@@ -311,3 +311,88 @@ form button {
 }
 
 /* featured destinations */
+
+.featured-text {
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+
+.destinations-package {
+  justify-content: space-between;
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 2rem;
+  font-family: "RALEWAY";
+}
+
+.location {
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: "RALEWAY";
+}
+.location .bi {
+  font-size: 1.5rem;
+}
+
+.destination-info {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.book-now {
+  font-size: 1.5rem;
+}
+
+.days {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.days .bi {
+  font-size: 1.5rem;
+}
+
+.ratings {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.ratings .bi {
+  font-size: 1.5rem;
+  color: rgb(185, 185, 45);
+}
+.card {
+  /* height: 60rem; */
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.heart {
+  position: absolute;
+  left: 85%;
+  top: 1.5rem;
+  font-size: 2.5rem;
+}
+.sale {
+  position: absolute;
+  background-color: rgb(224, 92, 44);
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 0.5rem;
+  top: 1.5rem;
+  color: antiquewhite;
+}
+.card-img-top {
+  height: 30rem;
+  padding: 2rem;
+  background-color: rgb(189, 231, 243);
+}
+.book-now a {
+  font-size: 1.5rem;
+}
+.book-now a .bi {
+  font-size: 1.5rem;
+}
+.divider {
+  color: #0d5ea6;
+}
