@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Quicksand";
+}
+
+.hero-destination {
+  background-image: url(./images/destination.png);
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.greetings {
+  padding-top: 15rem;
+  font-weight: 600;
+  font-size: 3rem;
+}
