@@ -337,7 +337,7 @@ form button {
 }
 
 .destination-info {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 700;
 }
 
@@ -371,7 +371,9 @@ form button {
   position: absolute;
   left: 85%;
   top: 1.5rem;
-  font-size: 2.5rem;
+  font-size: 3rem;
+  color: rgb(224, 92, 44);
+  /* border: 1px solid black; */
 }
 .sale {
   position: absolute;
@@ -381,12 +383,27 @@ form button {
   padding: 0.5rem;
   top: 1.5rem;
   color: antiquewhite;
+  left: 1.5rem;
+}
+.img-resize {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
 }
 .card-img-top {
+  height: 100%;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.card-img-top:hover {
+  transform: scale(1.2);
+}
+/* .card-img-top {
   height: 30rem;
   padding: 2rem;
   background-color: rgb(189, 231, 243);
-}
+} */
 .book-now a {
   font-size: 1.5rem;
 }

@@ -20,7 +20,12 @@ body {
 }
 
 .greetings {
-  padding-top: 15rem;
+  padding-top: 18rem;
   font-weight: 600;
   font-size: 3rem;
+}
+
+.uncover-text {
+  font-size: 1.3rem;
+  color: gray;
 }
