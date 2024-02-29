@@ -282,6 +282,14 @@ form button {
     background-position: center;
     background-size: 15rem;
   }
+  /* .our-section {
+    position: relative;
+  }
+  .mission-goals {
+    text-align: center;
+    position: relative;
+    background-color: #2b72af;
+  } */
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -361,11 +369,6 @@ form button {
   font-size: 1.5rem;
   color: rgb(185, 185, 45);
 }
-.card {
-  /* height: 60rem; */
-  position: relative;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
 
 .heart {
   position: absolute;
@@ -374,6 +377,7 @@ form button {
   font-size: 3rem;
   color: rgb(224, 92, 44);
   /* border: 1px solid black; */
+  z-index: 1;
 }
 .sale {
   position: absolute;
@@ -384,6 +388,13 @@ form button {
   top: 1.5rem;
   color: antiquewhite;
   left: 1.5rem;
+  z-index: 1;
+  /* border: 10rem solid black; */
+  border-radius: 5rem;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
+    rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
+    rgba(0, 0, 0, 0.07) 0px 16px 16px;
+  width: 11rem;
 }
 .img-resize {
   height: 100%;
@@ -393,17 +404,32 @@ form button {
 .card-img-top {
   height: 100%;
   width: 100%;
-  transition: 0.5s;
+  transition: transform 0.5s;
 }
-
-.card-img-top:hover {
-  transform: scale(1.2);
+.card {
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* overflow: hidden; */
+  cursor: pointer;
+}
+.card:hover .img-resize img {
+  transform: scale(1.1) !important;
+}
+.card-img-top {
+  transition: 0.5s;
+  height: 100%;
+  width: 100%;
 }
 /* .card-img-top {
   height: 30rem;
   padding: 2rem;
   background-color: rgb(189, 231, 243);
 } */
+
+.card:hover .sale,
+.card:hover .heart {
+  transform: none !important;
+}
 .book-now a {
   font-size: 1.5rem;
 }
@@ -412,4 +438,55 @@ form button {
 }
 .divider {
   color: #0d5ea6;
+}
+
+/* about us section */
+
+/* .about-hero {
+  background-image: url(./images/about.hero.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50vh;
+  background-size: cover;
+} */
+
+.text-hero h2 {
+  padding-top: 14rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.our-story {
+  /* font-family: "satisfy"; */
+  font-size: 6.5rem;
+  opacity: 30%;
+  margin-bottom: 4rem;
+}
+
+.our-section {
+  position: relative;
+}
+.mission-goals {
+  position: absolute;
+  left: 50%;
+  top: 6rem;
+  font-weight: 600;
+}
+.team-img {
+  height: 40rem;
+  width: 100%;
+}
+
+.our-story-text {
+  align-items: center;
+  height: 40rem;
+  display: flex;
+}
+
+.our-text {
+  font-size: 3.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  /* margin-top: -5rem; */
+  color: rgb(31, 29, 41);
 }
