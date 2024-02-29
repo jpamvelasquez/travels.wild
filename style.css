@@ -473,14 +473,18 @@ form button {
   font-weight: 600;
 }
 .team-img {
-  height: 40rem;
+  height: 30rem;
   width: 100%;
 }
 
 .our-story-text {
   align-items: center;
-  height: 40rem;
+  height: 30rem;
   display: flex;
+}
+
+.our-story-text div p {
+  font-size: 1.8rem;
 }
 
 .our-text {
