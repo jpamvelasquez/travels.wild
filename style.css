@@ -272,48 +272,6 @@ form button {
   background-size: 20rem;
 }
 
-@media (max-width: 767px) {
-  .bg-color:after {
-    content: "";
-    background-image: url(./images/transparent/1.png);
-    width: 100%;
-    height: 15rem;
-    left: 10rem;
-    bottom: 5rem;
-    position: absolute;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 15rem;
-  }
-  /* .our-section {
-    position: relative;
-  }
-  .mission-goals {
-    text-align: center;
-    position: relative;
-    background-color: #2b72af;
-  } */
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  .bg-color:after {
-    content: "";
-    background-image: url(./images/transparent/1.png);
-    width: 100%;
-    height: 15rem;
-    left: 8rem;
-    bottom: 4rem;
-    position: absolute;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 17rem;
-  }
-
-  .footer-container img {
-    height: 4rem;
-  }
-}
-
 .shadow-whatwedo {
   margin-right: 1rem;
 }
@@ -496,4 +454,130 @@ form button {
   margin-bottom: 2rem;
   /* margin-top: -5rem; */
   color: rgb(31, 29, 41);
+}
+
+/* testimonial */
+
+/* .carousel-item {
+  height: 50vh;
+} */
+
+.testimonial-content {
+  padding: 3rem 0;
+  /* background-image: url(./images/c.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+  /* height: 70vh; */
+}
+.client-text h2 {
+  margin-bottom: 1rem;
+}
+.client-text h3 {
+  font-weight: 900;
+  font-size: 3rem;
+  color: #0d5ea6;
+}
+
+.client-text p {
+  margin-bottom: 3rem;
+}
+.icon i {
+  color: rgb(185, 185, 45);
+  font-size: 2.5rem;
+}
+.comment-text {
+  color: rgb(41, 43, 46);
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.comment-text h4 {
+  font-weight: 600;
+  margin-top: 1.5rem;
+  font-size: 2rem;
+  border: 7px solod red;
+}
+
+.comment-text h6 {
+  font-weight: 500;
+  font-size: 1.8rem;
+  padding-bottom: 1.5rem;
+}
+
+.client-img {
+  width: 12rem;
+  height: 12rem;
+  /* border: 1px solid black; */
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  overflow: hidden;
+  /* border: 4px solid #2b72af; */
+  margin-top: 4rem;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.client-img img {
+  width: 100%;
+}
+
+.carousel-indicators {
+  bottom: -7rem;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 6rem;
+  height: 1rem;
+  background-color: #2b72af;
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 767px) {
+  .bg-color:after {
+    content: "";
+    background-image: url(./images/transparent/1.png);
+    width: 100%;
+    height: 15rem;
+    left: 10rem;
+    bottom: 5rem;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15rem;
+  }
+  /* .our-section {
+    position: relative;
+  }
+  .mission-goals {
+    display: block;
+    text-align: center;
+    position: relative;
+    background-color: #2b72af;
+  } */
+
+  .testimonial-content {
+    background-image: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .bg-color:after {
+    content: "";
+    background-image: url(./images/transparent/1.png);
+    width: 100%;
+    height: 15rem;
+    left: 8rem;
+    bottom: 4rem;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 17rem;
+  }
+
+  .footer-container img {
+    height: 4rem;
+  }
 }
