@@ -284,6 +284,29 @@ form button {
 .featured-text {
   font-size: 2.8rem;
   font-weight: 600;
+  position: relative;
+  display: inline-block;
+}
+.featured-text:after {
+  content: "";
+  width: 2rem;
+  height: 1rem;
+  bottom: 0;
+  background-color: #0d5ea6;
+  position: absolute;
+  left: -2.5rem;
+  top: 50%;
+}
+
+.featured-text:before {
+  content: "";
+  width: 2rem;
+  height: 1rem;
+  bottom: 0;
+  background-color: #061421;
+  position: absolute;
+  right: -2.5rem;
+  top: 50%;
 }
 
 .destinations-package {
