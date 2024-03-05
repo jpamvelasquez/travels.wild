@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.login-btn {
+  background-color: #0d5ea6;
+  padding: 0.4rem 1.5rem;
+  border-radius: 5rem;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 2rem;
+  transition: 0.3s background-color;
+}
+
+.login-btn:hover {
+  background-color: #072744;
+}
+
+.navbar-toggler {
+  border: none;
+  font-size: 2rem;
+}
+
+.navbar-toggler:focus,
+.btn-close:focus {
+  box-shadow: none;
+  outline: none;
+}
+/* 
+.login-nav {
+  border: 1px solid black;
+} */
+
+.btn-close {
+  margin-right: 1rem !important;
+  margin-top: -1.5rem !important;
+}
+/* Login form */
+
+.form-container {
+  /* background-color: #9fb6ca; */
+  margin-top: 3rem;
+}
+.left {
+  background-image: linear-gradient(rgba(11, 23, 34, 0.2), rgba(8, 19, 31, 0.8)),
+    url(./images/login.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* border-radius: 1rem 0 0 1rem; */
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+
+.form-row {
+  width: 90rem;
+  height: 55rem;
+  /* border-radius: 1rem; */
+  background-color: rgb(214, 222, 230);
+}
+
+.text-login {
+  width: 50%;
+  color: aliceblue;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.input-info {
+  width: 33rem;
+}
+
+.input-form {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 4.5rem;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 1rem 0;
+}
+
+.input {
+  height: 4.5rem;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  margin-bottom: 2rem;
+}
+
+.input-info .input-field label {
+  position: absolute;
+  top: 1.5rem;
+  pointer-events: none;
+  transition: 0.5s;
+  font-size: 1.8rem;
+}
+
+.input-field .input:focus ~ label {
+  top: -1rem;
+  font-size: 1.5rem;
+}
+
+.input-field .input:valid ~ label {
+  top: -1rem;
+  font-size: 1.5rem;
+  color: #22808b;
+  font-weight: 800;
+}
+
+.submit {
+  border: none;
+  outline: none;
+  /* border-radius: 0.5rem; */
+  transition: 0.5s;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.submit:hover {
+  background: #0d5ea6;
+  color: white;
+}
+
+.text-register p,
+.text-register a {
+  font-size: 1.5rem;
+}
+
+.modal {
+  margin-top: 10rem;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.close {
+  border: none;
+  box-shadow: none;
+  outline: none;
+  background-color: #0d5ea6;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 5rem;
+  color: white;
+}
+
+.create-acct {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.create-btn {
+  font-weight: 600;
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
+  background: #0d5ea6;
+  color: white;
+  width: 9rem;
+  height: 3rem;
+  margin-top: 2rem;
+}
+
+.modal-body form div label {
+  font-size: 1.8rem;
+}
+.modal-body form div input:focus {
+  outline: none;
+  border-radius: none !important;
+  box-shadow: none;
+}
+.modal-body form div input {
+  border-bottom: 1px solid black;
+  border-radius: none !important;
+  width: 100%;
+}
+
+.modal-body form {
+  padding: 2rem 4rem;
+}
+.form-control {
+  border-radius: none;
+}

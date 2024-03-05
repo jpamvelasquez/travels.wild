@@ -20,38 +20,57 @@
       rel="stylesheet"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
     <link rel="icon" href="./images/icon-logo.png" />
+    <link rel="stylesheet" href="login.css">
     <link rel="stylesheet" href="style.css" />
     <title>Travels</title>
   </head>
   <body>
     <!-- Navbar -->
     <div class="container-fluid nav-bg sticky-top">
-    <div class="container">
-      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 navbar">
-        <a
-          href="/"
-          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
-        >
-          <img src="./images/logo.svg" class="logo" />
-        </a>
-
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a href="#" class="nav-link" aria-current="page">Home</a>
-          </li>
-          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-     
-          <li class="nav-item">
-            <a href="#whatwedo" class="nav-link">Services</a>
-          </li>
-          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-        </ul>
-      </header>
-    </div>
-    </div>
+      <div class="container navbar-expand-lg navbar-expand-md  navbar d-flex align-items-center">
+       
+              <a
+                  href="/"
+                  class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+                >
+                  <img src="./images/logo.svg" class="logo" />
+                </a>  
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <a
+                  href="/"
+                  class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+                >
+                  <img src="./images/logo.svg" class="logo" />
+                </a> 
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active mx-lg-2" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link mx-lg-2" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link mx-lg-2" href="#whatwedo">Services</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link mx-lg-2" href="#contact">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <a href="login.html" class="login-btn">Login <i class="bi bi-box-arrow-in-right"></i></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          </div>
+        </div>
     <!-- End of Navbar -->
 
     <!-- Hero Section -->
@@ -184,7 +203,7 @@
               <a href="#" class="viewmore px-4">View details</a>
             </button>
           </div>
-          <div class="col-md p-2 mb-5 shadow-whatwedo"">
+          <div class="col-md p-2 mb-5 shadow-whatwedo">
             <img src="./images/whatwedo/3.png" />
             <h3 class="mb-4">Travel Insurance</h3>
             <p>
@@ -260,7 +279,7 @@
             </div>
           </div>
           <div class="row row-cols-1 row-cols-md-4 g-4 pb-4 text-center">
-              <div class="col">
+              <div class="col-md-6 col-lg-3">
                 <div class="card">
                   <p class="sale">Promo 20%</p>
                   <i class="bi bi-bookmark-heart heart"></i>
@@ -296,7 +315,7 @@
                   </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-md-6 col-lg-3">
               <div class="card">
                 <i class="bi bi-bookmark-heart heart"></i>
                 <div class="img-resize">
@@ -331,7 +350,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col-md-6 col-lg-3">
               <div class="card">
                 <p class="sale">Popular</p>
                 <i class="bi bi-bookmark-heart heart"></i>
@@ -367,7 +386,7 @@
                 </div>
               </div>
             </div> 
-        <div class="col">
+        <div class="col-md-6 col-lg-3">
           <div class="card">
             <i class="bi bi-bookmark-heart heart"></i>
             <div class="img-resize">
@@ -467,7 +486,7 @@
                     <i class="bi bi-star-fill"></i>
                   </div>
                   <div class="comment-text">
-                    <p>Their expertise and personalized recommendations made our journey unforgettable. From the moment we contacted them, their team was incredibly attentive and knowledgeable. We can't wait to plan our next getaway with them!</p>
+                    <p>Their expertise and personalized recommendations made our journey unforgettable. From the moment we contacted them, , every aspect of our journey was seamless. their team was incredibly attentive and knowledgeable.</p>
                     <div class="client-img">
                       <img src="./images/4.png">
                     </div>
@@ -484,7 +503,7 @@
                     <i class="bi bi-star-fill"></i>
                   </div>
                   <div class="comment-text">
-                    <p>Their attention to detail and personalized approach made our trip unforgettable. From the moment we booked until we returned home, every aspect of our journey was seamless. We can't wait to embark on our next adventure with them!</p>
+                    <p>Their attention to detail and personalized approach made our trip unforgettable. From the moment we booked until we returned home. We can't wait to embark on our next adventure with them!</p>
                     <div class="client-img">
                       <img src="./images/5.png">
                     </div>
@@ -511,7 +530,7 @@
   <div class="container-fluid pt-5" > 
     <div class="container  contact-container pt-5 ">
       <div class="row p-3">
-          <div class="col-sm-12 col-md-5 bg-color  text-white  order-md-first order-last first-box">
+          <div class=" col-md-5 bg-color  text-white  order-md-first order-last first-box">
               <h2 class="mx-5">We'd Love to Hear from You</h2>
               <p class="mx-5">Here's how you can reach us..</p>
               <div class="d-flex mt-4 p-2 align-items-center mx-5">

@@ -550,6 +550,9 @@ form button {
 .carousel-indicators {
   bottom: -7rem;
 }
+/* .carousel-item {
+  height: 100%;
+} */
 
 .carousel-indicators [data-bs-target] {
   width: 6rem;
@@ -584,6 +587,16 @@ form button {
   .testimonial-content {
     background-image: none;
   }
+  .comment-text p {
+    font-size: 1.5rem;
+    /* background-color: #0d5ea6; */
+  }
+  .carousel-item {
+    height: 50rem;
+  }
+  .bg-color:after {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -600,7 +613,23 @@ form button {
     background-size: 17rem;
   }
 
+  .shadow-whatwedo p {
+    height: 21rem;
+    font-size: 1.7rem;
+  }
+
+  .shadow-whatwedo {
+    margin-bottom: 2rem;
+  }
+  .shadow-whatwedo h3 {
+    font-size: 1.8rem;
+  }
+
   .footer-container img {
     height: 4rem;
+  }
+
+  .bg-color:after {
+    display: none;
   }
 }

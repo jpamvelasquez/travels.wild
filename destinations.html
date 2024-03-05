@@ -22,38 +22,53 @@
     <link rel="icon" href="./images/icon-logo.png" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="destinations.css" />
+    <link rel="stylesheet" href="login.css">
     <title>Destinations</title>
   </head>
   <body>
     <!-- Navbar -->
     <div class="container-fluid nav-bg sticky-top">
-      <div class="container">
-        <header
-          class="d-flex flex-wrap justify-content-center py-3  navbar"
-        >
-          <a
-            href="/"
-            class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
-          >
-            <img src="./images/logo.svg" class="logo" />
-          </a>
-
-          <ul class="nav nav-pills">
-            <li class="nav-item">
-              <a href="index.html" class="nav-link" aria-current="page">Home</a>
-            </li>
-            <li class="nav-item"><a href="index.html" class="nav-link">About</a></li>
-
-            <li class="nav-item">
-              <a href="index.html" class="nav-link">Services</a>
-            </li>
-            <li class="nav-item">
-              <a href="index.html" class="nav-link">Contact</a>
-            </li>
-          </ul>
-        </header>
-      </div>
-    </div>
+      <div class="container navbar-expand-lg  navbar-expand-md navbar d-flex align-items-center">
+       
+              <a
+                  href="/"
+                  class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+                >
+                  <img src="./images/logo.svg" class="logo" />
+                </a>  
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <a
+                  href="/"
+                  class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+                >
+                  <img src="./images/logo.svg" class="logo" />
+                </a> 
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active mx-lg-2" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link mx-lg-2" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link mx-lg-2" href="index.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link mx-lg-2" href="index.html">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <a href="login.html" class="login-btn">Login <i class="bi bi-box-arrow-in-right"></i></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          </div>
+        </div>
     <!-- End of Navbar -->
     
     <!--Hero section  -->
@@ -166,7 +181,7 @@
               </div>
             </div>
             <div class="row row-cols-1 row-cols-md-4 g-4 pb-4 text-center">
-              <div class="col">
+              <div class="col-md-6 col-lg-3">
                 <div class="card">
                   <p class="sale">Promo 20%</p>
                   <i class="bi bi-bookmark-heart heart"></i>
@@ -176,7 +191,7 @@
                   <div class="card-body">
                     <p class="card-title">FRANCE</p>
                     <p class="location"><i class="bi bi-geo-alt-fill me-3"></i>PARIS</p>
-                    <p class="destination-info">ONE WEEK FRANCE TOUR TO ITALY</p>
+                    <p class="destination-info">ONE WEEK FRANCE TOUR TO PARIS</p>
                     <p class="ratings">
                       <i class="bi bi-star-fill"></i>
                       <i class="bi bi-star-fill"></i>
@@ -202,16 +217,16 @@
                   </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-md-6 col-lg-3">
               <div class="card">
                 <i class="bi bi-bookmark-heart heart"></i>
                 <div class="img-resize">
                 <img src="./images/destinations/2.svg" class="card-img-top" />
                 </div>
                 <div class="card-body">
-                  <p class="card-title">FRANCE</p>
-                  <p class="location"><i class="bi bi-geo-alt-fill me-3"></i>ITALY</p>
-                  <p class="destination-info">ONE WEEK FRANCE TOUR TO ITALY</p>
+                  <p class="card-title">INDIA</p>
+                  <p class="location"><i class="bi bi-geo-alt-fill me-3"></i>TAJ MAHAL</p>
+                  <p class="destination-info">5 DAYS INDIA TOUR</p>
                   <p class="ratings">
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
@@ -222,10 +237,10 @@
                   </p>
                   <div class="destinations-package d-flex px-3">
                     <div class="featured-days">
-                      <p class="days"><i class="bi bi-calendar-week-fill me-2 "></i> 7 Days</p>
+                      <p class="days"><i class="bi bi-calendar-week-fill me-2 "></i> 5 Days</p>
                     </div>
                     <div class="featured-cities">
-                      <p class="days"><i class="bi bi-send-fill me-1"></i> 3 Cities</p>
+                      <p class="days"><i class="bi bi-send-fill me-1"></i> 2 Cities</p>
                     </div>
                     <div class="featured-country">
                       <p class="days"><i class="bi bi-flag-fill me-2"></i>1 Country</p>
@@ -237,7 +252,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col-md-6 col-lg-3">
               <div class="card">
                 <p class="sale">Popular</p>
                 <i class="bi bi-bookmark-heart heart"></i>
@@ -247,7 +262,7 @@
                 <div class="card-body">
                   <p class="card-title">UNITED KINGDOM</p>
                   <p class="location"><i class="bi bi-geo-alt-fill me-3"></i>LONDON</p>
-                  <p class="destination-info">ONE WEEK FRANCE TOUR TO ITALY</p>
+                  <p class="destination-info">6 DAYS UNITED KINGDOM TOUR</p>
                   <p class="ratings">
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
@@ -258,10 +273,10 @@
                   </p>
                   <div class="destinations-package d-flex px-3">
                     <div class="featured-days">
-                      <p class="days"><i class="bi bi-calendar-week-fill me-2 "></i> 7 Days</p>
+                      <p class="days"><i class="bi bi-calendar-week-fill me-2 "></i> 6 Days</p>
                     </div>
                     <div class="featured-cities">
-                      <p class="days"><i class="bi bi-send-fill me-1"></i> 3 Cities</p>
+                      <p class="days"><i class="bi bi-send-fill me-1"></i> 5 Cities</p>
                     </div>
                     <div class="featured-country">
                       <p class="days"><i class="bi bi-flag-fill me-2"></i>1 Country</p>
@@ -273,7 +288,7 @@
                 </div>
               </div>
             </div> 
-        <div class="col">
+        <div class="col-md-6 col-lg-3">
           <div class="card">
             <i class="bi bi-bookmark-heart heart"></i>
             <div class="img-resize">
@@ -282,7 +297,7 @@
             <div class="card-body">
               <p class="card-title">ITALY</p>
               <p class="location"><i class="bi bi-geo-alt-fill me-3"></i>VENICE</p>
-              <p class="destination-info">ONE WEEK FRANCE TOUR TO ITALY</p>
+              <p class="destination-info">3 DAYS VENICE TOUR</p>
               <p class="ratings">
                 <i class="bi bi-star-fill"></i>
                 <i class="bi bi-star-fill"></i>
@@ -293,7 +308,7 @@
               </p>
               <div class="destinations-package d-flex px-3">
                 <div class="featured-days">
-                  <p class="days"><i class="bi bi-calendar-week-fill me-2 "></i> 7 Days</p>
+                  <p class="days"><i class="bi bi-calendar-week-fill me-2 "></i> 3 Days</p>
                 </div>
                 <div class="featured-cities">
                   <p class="days"><i class="bi bi-send-fill me-1"></i> 3 Cities</p>
@@ -308,7 +323,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col-md-6 col-lg-3">
           <div class="card">
             <p class="sale">Promo 20%</p>
             <i class="bi bi-bookmark-heart heart"></i>
@@ -316,9 +331,9 @@
             <img src="./images/destinations/9.svg" class="card-img-top" />
             </div>
             <div class="card-body">
-              <p class="card-title">FRANCE</p>
-              <p class="location"><i class="bi bi-geo-alt-fill me-3"></i>PARIS</p>
-              <p class="destination-info">ONE WEEK FRANCE TOUR TO ITALY</p>
+              <p class="card-title">JAPAN</p>
+              <p class="location"><i class="bi bi-geo-alt-fill me-3"></i>TOKYO</p>
+              <p class="destination-info">ONE WEEK JAPAN TOUR </p>
               <p class="ratings">
                 <i class="bi bi-star-fill"></i>
                 <i class="bi bi-star-fill"></i>
@@ -344,7 +359,7 @@
             </div>
           </div>
       </div>
-      <div class="col">
+      <div class="col-md-6 col-lg-3">
         <div class="card">
           <p class="sale">Promo 20%</p>
           <i class="bi bi-bookmark-heart heart"></i>
@@ -352,9 +367,9 @@
           <img src="./images/destinations/10.svg" class="card-img-top" />
           </div>
           <div class="card-body">
-            <p class="card-title">FRANCE</p>
-            <p class="location"><i class="bi bi-geo-alt-fill me-3"></i>PARIS</p>
-            <p class="destination-info">ONE WEEK FRANCE TOUR TO ITALY</p>
+            <p class="card-title">SOUTH KOREA</p>
+            <p class="location"><i class="bi bi-geo-alt-fill me-3"></i>SEOUL TOWER</p>
+            <p class="destination-info">ONE WEEK  TOUR TO SOUTH KOREA</p>
             <p class="ratings">
               <i class="bi bi-star-fill"></i>
               <i class="bi bi-star-fill"></i>
@@ -380,7 +395,7 @@
           </div>
         </div>
     </div>
-    <div class="col">
+    <div class="col-md-6 col-lg-3">
       <div class="card">
         <p class="sale">Promo 20%</p>
         <i class="bi bi-bookmark-heart heart"></i>
@@ -388,8 +403,8 @@
         <img src="./images/destinations/11.svg" class="card-img-top" />
         </div>
         <div class="card-body">
-          <p class="card-title">FRANCE</p>
-          <p class="location"><i class="bi bi-geo-alt-fill me-3"></i>PARIS</p>
+          <p class="card-title">ROME</p>
+          <p class="location"><i class="bi bi-geo-alt-fill me-3"></i>COLOSSEUM</p>
           <p class="destination-info">ONE WEEK FRANCE TOUR TO ITALY</p>
           <p class="ratings">
             <i class="bi bi-star-fill"></i>
@@ -416,7 +431,7 @@
         </div>
       </div>
   </div>
-  <div class="col">
+  <div class="col-md-6 col-lg-3">
     <div class="card">
       <p class="sale">Promo 20%</p>
       <i class="bi bi-bookmark-heart heart"></i>
@@ -424,9 +439,9 @@
       <img src="./images/destinations/12.svg" class="card-img-top" />
       </div>
       <div class="card-body">
-        <p class="card-title">FRANCE</p>
-        <p class="location"><i class="bi bi-geo-alt-fill me-3"></i>PARIS</p>
-        <p class="destination-info">ONE WEEK FRANCE TOUR TO ITALY</p>
+        <p class="card-title">ICELAND</p>
+        <p class="location"><i class="bi bi-geo-alt-fill me-3"></i>NORDIC ISLAND</p>
+        <p class="destination-info">ONE WEEK TOUR TO ICELAND</p>
         <p class="ratings">
           <i class="bi bi-star-fill"></i>
           <i class="bi bi-star-fill"></i>
