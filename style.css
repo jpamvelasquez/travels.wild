@@ -597,6 +597,9 @@ form button {
   .bg-color:after {
     display: none;
   }
+  .heading {
+    font-size: 3.5rem;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
