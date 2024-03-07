@@ -13,10 +13,10 @@ body {
 
 .hero-destination {
   background-image: linear-gradient(
-      rgba(165, 195, 225, 0.2),
-      rgba(157, 183, 209, 0.8)
+      rgba(154, 197, 158, 0.2),
+      rgba(82, 172, 164, 0.8)
     ),
-    url(./images/destination.png);
+    url(../images/destination.png);
   height: 60vh;
   background-position: center;
   background-size: cover;
