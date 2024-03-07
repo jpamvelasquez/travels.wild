@@ -110,3 +110,29 @@ body {
     font-size: 2rem;
   }
 }
+
+/* pagination */
+.page-btn {
+  /* display: flex; */
+  display: inline;
+}
+.page-btn span {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  border: 1.9px solid rgb(50, 130, 203);
+  text-align: center;
+  margin-right: 1rem;
+  margin-top: 2rem;
+  font-weight: 500;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.page-btn span:hover {
+  background: rgb(50, 130, 203);
+  color: aliceblue;
+}
+.active-page {
+  background: rgb(50, 130, 203);
+  color: white;
+}
