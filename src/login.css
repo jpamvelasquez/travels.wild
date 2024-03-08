@@ -147,7 +147,7 @@ html {
 }
 
 .modal {
-  margin-top: 10rem;
+  margin-top: 3rem;
 }
 
 .modal-header {
@@ -201,4 +201,8 @@ html {
 }
 .form-control {
   border-radius: none;
+}
+
+.reg-acct {
+  text-decoration: none;
 }
