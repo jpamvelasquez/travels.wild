@@ -338,8 +338,18 @@ form button {
 }
 
 .days {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 600;
+}
+
+/* .featured-days .days i {
+  font-size: 1.2rem;
+} */
+
+.featured-country .days i,
+.featured-cities .days i,
+.featured-days .days i {
+  font-size: 1.3rem;
 }
 .days .bi {
   font-size: 1.5rem;
@@ -381,7 +391,7 @@ form button {
   width: 11rem;
 }
 .img-resize {
-  height: 100%;
+  /* height: 35rem; */
   width: 100%;
   overflow: hidden;
 }
@@ -395,6 +405,7 @@ form button {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   /* overflow: hidden; */
   cursor: pointer;
+  /* height: 30rem; */
 }
 .card:hover .img-resize img {
   transform: scale(1.1) !important;
